@@ -3,7 +3,7 @@ using UnityEngine;
 public class cameraController : MonoBehaviour
 {
 
-    public GameObject car;
+    [SerializeField] private GameObject car;
     [SerializeField] private Vector3 cameraOffset = new Vector3(0, 5, -7);
 
     void Start()

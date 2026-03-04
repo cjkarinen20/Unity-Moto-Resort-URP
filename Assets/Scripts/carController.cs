@@ -6,6 +6,8 @@ public class carController : MonoBehaviour
 
     [SerializeField] private float vehicleSpeed = 20f;
     [SerializeField] private float turnSpeed = 100f;
+
+
     [SerializeField] private float horizontalInput;
     [SerializeField] private float forwardInput;
 
